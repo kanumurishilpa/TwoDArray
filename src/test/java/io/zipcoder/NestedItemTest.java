@@ -27,4 +27,12 @@ public class NestedItemTest {
         Integer[] actual = nestedItem.getArrayOfInts();
         assertArrayEquals("The arrays should be equal", expected, actual);
     }
+
+    @Test
+    public void isPrimeTest(){
+        int n = 17;
+        boolean expected = true;
+        boolean actual = nestedItem.isPrime(n);
+        assertEquals(expected, actual);
+    }
 }
