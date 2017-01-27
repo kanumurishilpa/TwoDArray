@@ -9,10 +9,12 @@ public class NestedItem {
     private int primeNumberCount = 0;
 
     public Integer[] getArrayOfInts() {
+
         return arrayOfInts;
     }
 
     public int getPrimeNumberCount() {
+
         return primeNumberCount;
     }
 
@@ -31,10 +33,11 @@ public class NestedItem {
     }
 
     private void sortArrayOfIntsDescending(){
+
         Arrays.sort(arrayOfInts, Collections.reverseOrder());
     }
 
-    private boolean isPrime(int n) {
+    public boolean isPrime(int n) {
         if(n == 2) return true;
         //check if n is a multiple of 2
         if (n%2==0) return false;
@@ -45,5 +48,7 @@ public class NestedItem {
         }
         return true;
     }
+
+
 }
 

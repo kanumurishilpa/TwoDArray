@@ -26,6 +26,7 @@ public class NestedItemCollection {
     }
 
     public NestedItem[] getNestedItems() {
+
         return nestedItems;
     }
 
@@ -42,4 +43,6 @@ public class NestedItemCollection {
     public int length(){
         return nestedItems.length;
     }
+
+
 }
