@@ -6,7 +6,6 @@ public class SwapNestedItemBasedOnIndex {
 		
 		NestedItem tempArray = nestedCollection.getAtIndex(index-1);
 		nestedCollection.getNestedItems()[index-1] = nestedCollection.getAtIndex(index);
-
 		nestedCollection.getNestedItems()[index] = tempArray;
 	}
 

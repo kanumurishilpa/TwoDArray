@@ -17,9 +17,6 @@ public class TwoDArraySorter {
          };
 
         SwapNestedItemEngine engineRun = new SwapNestedItemEngine();
-
-
-
         engineRun.arraySorter(twoDArray);
 
 

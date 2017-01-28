@@ -9,7 +9,7 @@ public class DeterminePositionAndValue {
 
         int position = Integer.MAX_VALUE;
 
-        for(int i=0; i < nestedItem.getArrayOfInts().length; i++){
+        for(int i=0; i < nestedItem.getArrayOfInts().length ; i++){
             if(nestedItem.getArrayOfInts()[i]%2 != 0){
                 position = i;
                 break;
@@ -32,8 +32,7 @@ public class DeterminePositionAndValue {
     }
 
     public boolean  valueFirstElementThatDiffers(NestedItem previousNestedItem, NestedItem afterNestedItem) {
-		// TODO Auto-generated method stub
-		
+
     	Integer[] previousArray= previousNestedItem.getArrayOfInts();
     	Integer[] afterArray= afterNestedItem.getArrayOfInts();
     	
